@@ -195,7 +195,9 @@ Revenue per event
 
 📸 Screenshots Included (For Submission)
 
-Event creation
+Event creation:
+<img width="1288" height="666" alt="Screenshot 2026-01-20 102747" src="https://github.com/user-attachments/assets/0e5db7cd-5d30-4db5-8e0f-7c0aa879f6a4" />
+
 
 Attendee list
 
