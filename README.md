@@ -1,3 +1,7 @@
+📌 Event Management System
+
+(Frappe Framework)
+
 📖 Project Overview
 
 This project is a Frappe-based Event Management Web Application developed as part of a Developer Hiring Test.
@@ -10,13 +14,13 @@ Register attendees
 
 Sell tickets
 
-Track capacity and revenue
+Track event capacity and revenue
 
 Import events using CSV files
 
-Generate basic reports
+Generate basic analytical reports
 
-The system is designed for single-role usage (Event Planner) and focuses on core business logic, not complex permissions.
+The system is designed for single-role usage (Event Planner) and focuses on core business logic, avoiding complex permission management.
 
 🛠️ Tech Stack
 
@@ -53,7 +57,7 @@ Remaining Capacity
 
 2️⃣ Attendee
 
-Stores attendee information.
+Stores attendee information and links them to events.
 
 Fields:
 
@@ -67,7 +71,7 @@ Event (Link to Event Detail)
 
 3️⃣ Ticket Sale
 
-Handles ticket selling for events.
+Handles ticket sales and revenue tracking.
 
 Fields:
 
@@ -82,11 +86,11 @@ Total Price
 ✅ Features Implemented
 🔹 Base Event System (CRUD)
 
-Create, Read, Update, Delete events
+Create, Read, Update, Delete Events
 
-Create, Read, Update, Delete attendees
+Create, Read, Update, Delete Attendees
 
-Create, Read, Update, Delete ticket sales
+Create, Read, Update, Delete Ticket Sales
 
 🔹 Event Management
 
@@ -106,7 +110,7 @@ Register attendees for events
 
 Update attendee details
 
-Link attendees to events
+Link attendees to specific events
 
 🔹 Ticket Sales
 
@@ -120,7 +124,7 @@ Prevent ticket sales when event capacity is exceeded
 
 🔹 CSV Import (Data Import)
 
-Import Event records using CSV
+Import Event records using CSV files
 
 Supported CSV fields:
 
@@ -144,7 +148,7 @@ Event-wise total tickets sold
 
 Event-wise revenue calculation
 
-Built using Frappe Report Builder
+Implemented using Frappe Report Builder
 
 🧪 How to Test the Application
 ▶️ Run the Application
@@ -159,7 +163,7 @@ http://127.0.0.1:8001/app
 
 Create an Event with Capacity and Ticket Price
 
-Create a Ticket Sale with Quantity
+Create a Ticket Sale with a Quantity
 
 Verify:
 
@@ -167,7 +171,7 @@ Tickets Sold increases
 
 Remaining Capacity decreases
 
-Total Price is calculated
+Total Price is calculated automatically
 
 Try exceeding capacity → system blocks the sale
 
@@ -177,11 +181,11 @@ Go to Data Import
 
 Select Event Detail
 
-Download template
+Download the CSV template
 
-Upload CSV
+Upload the filled CSV file
 
-Verify imported events in Event list
+Verify imported events in the Event list
 
 ▶️ Test Reports
 
@@ -194,28 +198,14 @@ Total tickets sold per event
 Revenue per event
 
 📸 Screenshots Included (For Submission)
-
-Event creation:
-<img width="1288" height="666" alt="Screenshot 2026-01-20 102747" src="https://github.com/user-attachments/assets/0e5db7cd-5d30-4db5-8e0f-7c0aa879f6a4" />
-
-
-Attendee list:
-<img width="1304" height="672" alt="Screenshot 2026-01-20 103007" src="https://github.com/user-attachments/assets/78982d1e-471f-4fd3-8d26-2989d92f4c1c" />
-
-
-Ticket sale entry:
-<img width="1288" height="669" alt="Screenshot 2026-01-20 103258" src="https://github.com/user-attachments/assets/622e52a6-f17e-4aca-b058-34473b17bc8d" />
-
-
-
-Ticket capacity validation
-
-CSV import success:
-<img width="1289" height="671" alt="Screenshot 2026-01-20 103106" src="https://github.com/user-attachments/assets/e642b8c6-8620-4d4e-8dc6-2afd4e98fa12" />
-
-
-Report output
-
+Event Creation
+<img width="1288" height="666" alt="Event Creation" src="https://github.com/user-attachments/assets/0e5db7cd-5d30-4db5-8e0f-7c0aa879f6a4" />
+Attendee List
+<img width="1337" height="588" alt="Attendee List" src="https://github.com/user-attachments/assets/d6b99807-27ed-46e4-aeda-dc66a07cbc30" /> <img width="1304" height="672" alt="Attendee Detail" src="https://github.com/user-attachments/assets/78982d1e-471f-4fd3-8d26-2989d92f4c1c" />
+Ticket Sale Entry
+<img width="1288" height="669" alt="Ticket Sale" src="https://github.com/user-attachments/assets/622e52a6-f17e-4aca-b058-34473b17bc8d" />
+CSV Import Success
+<img width="1289" height="671" alt="CSV Import" src="https://github.com/user-attachments/assets/e642b8c6-8620-4d4e-8dc6-2afd4e98fa12" />
 🧠 Key Learning Outcomes
 
 DocType design and relationships in Frappe
@@ -232,7 +222,7 @@ Report creation using Report Builder
 
 React frontend integration
 
-User authentication & roles
+User authentication and roles
 
 Dashboard with charts
 
@@ -244,4 +234,3 @@ Online payment gateway integration
 
 Narasimma Rathakrishnan
 Event Management System using Frappe Framework
-
