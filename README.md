@@ -199,13 +199,20 @@ Event creation:
 <img width="1288" height="666" alt="Screenshot 2026-01-20 102747" src="https://github.com/user-attachments/assets/0e5db7cd-5d30-4db5-8e0f-7c0aa879f6a4" />
 
 
-Attendee list
+Attendee list:
+<img width="1304" height="672" alt="Screenshot 2026-01-20 103007" src="https://github.com/user-attachments/assets/78982d1e-471f-4fd3-8d26-2989d92f4c1c" />
 
-Ticket sale entry
+
+Ticket sale entry:
+<img width="1288" height="669" alt="Screenshot 2026-01-20 103258" src="https://github.com/user-attachments/assets/622e52a6-f17e-4aca-b058-34473b17bc8d" />
+
+
 
 Ticket capacity validation
 
-CSV import success
+CSV import success:
+<img width="1289" height="671" alt="Screenshot 2026-01-20 103106" src="https://github.com/user-attachments/assets/e642b8c6-8620-4d4e-8dc6-2afd4e98fa12" />
+
 
 Report output
 
